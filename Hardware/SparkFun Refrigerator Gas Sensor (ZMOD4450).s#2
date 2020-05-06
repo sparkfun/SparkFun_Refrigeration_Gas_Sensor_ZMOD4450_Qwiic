@@ -18415,7 +18415,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R2" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
+<part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
@@ -18452,11 +18452,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="166.116" y="11.176" size="2.54" layer="94" font="vector">Andy England</text>
 <text x="235.966" y="7.62" size="2.54" layer="94" font="vector">v01</text>
 <text x="41.148" y="126.746" size="1.778" layer="97" font="vector">Power</text>
-<text x="66.04" y="73.66" size="2.54" layer="97" font="vector" align="center">Connectors</text>
+<text x="2.54" y="81.28" size="2.54" layer="97" font="vector">Connectors</text>
 <text x="38.1" y="144.78" size="1.778" layer="97" font="vector">Cut the PWR
 jumper to disable
 the power LED</text>
 <wire x1="0" y1="86.36" x2="248.92" y2="86.36" width="0.1524" layer="97" style="longdash"/>
+<text x="2.54" y="180.34" size="2.54" layer="97" font="vector">ZMOD4450 Refrigeration Gas Sensor</text>
+<text x="2.54" y="177.8" size="1.778" layer="97" font="vector">Vin: 1.7V-3.6V</text>
+<text x="96.52" y="121.92" size="1.778" layer="97" font="vector">7-bit unshifted I2C Address: 0x32</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -18489,7 +18492,7 @@ the power LED</text>
 <instance part="SUPPLY1" gate="G$1" x="104.14" y="152.4" smashed="yes">
 <attribute name="VALUE" x="104.14" y="155.194" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="137.16" y="152.4" smashed="yes" rot="R270">
+<instance part="I2C" gate="G$1" x="137.16" y="152.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="139.7" y="155.321" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="137.16" y="160.02" smashed="yes">
@@ -18619,7 +18622,7 @@ the power LED</text>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="I2C" gate="G$1" pin="2"/>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
 <wire x1="137.16" y1="160.02" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
 </segment>
@@ -18672,13 +18675,13 @@ the power LED</text>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="149.86" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="I2C" gate="G$1" pin="3"/>
 <wire x1="129.54" y1="152.4" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="I2C" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="152.4" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
