@@ -1,41 +1,26 @@
 SparkFun <PRODUCT NAME>
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![SparkX Refrigeration Gas Sensor - ZMOD4450 (Qwiic)](https://cdn.sparkfun.com/assets/parts/1/5/5/6/3/16677-SparkX_Refrigeration_Gas_Sensor_-_ZMOD4450__Qwiic_-02.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkX Refrigeration Gas Sensor - ZMOD4450 (Qwiic) (SPX-16677)*](https://www.sparkfun.com/products/16677)
 
-<Basic description of the part.>
+
+The ZMOD4450 from Renesas is a refrigeration air quality sensor designed to measure gases typically emitted during food ripening and rotting. The sensor measures ethlyene, amines and volatile sulfur compounds and reports the data via I<sup>2</sup>C. This breakout from SparkX uses the Qwiic system to easily add this sensor into your Qwiic chain. 
+
+Feel like supporting open-source hardware? Buy a [board](https://www.sparkfun.com/products/16677) from SparkFun!
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
+* **/Firmware** - Target Specific I<sup>2</sup>C and Low Level Functions
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
-
-Documentation
---------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU](retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [SPX-16677](https://www.sparkfun.com/products/16677)- Original SparkX release of the Refrigeration Gas Sensor - ZMOD4450
 
 License Information
 -------------------
@@ -49,5 +34,3 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
