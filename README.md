@@ -1,4 +1,4 @@
-SparkFun <PRODUCT NAME>
+SparkX Refrigeration Gas Sensor - ZMOD4450 (Qwiic)
 ========================================
 
 ![SparkX Refrigeration Gas Sensor - ZMOD4450 (Qwiic)](https://cdn.sparkfun.com/assets/parts/1/5/5/6/3/16677-SparkX_Refrigeration_Gas_Sensor_-_ZMOD4450__Qwiic_-02.jpg)
